@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+>
+	<channel>
+		<title>Simple.css</title>
+		<description>Simple.css is classless CSS template that allows you to create a good looking website very quickly.</description>
+		<sy:updatePeriod>daily</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+		<link>https://simplecss.org</link>
+		<atom:link href="https://simplecss.org/feed.xml" rel="self" type="application/rss+xml" />
+		<lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate>
+		
+		
+			<item>
+				<title>Introducing Simple.css Version 2 🎉</title>
+				
+				<description>
+          &lt;p&gt;I started off wanting to make a few small tweaks to Simple.css, but that list has grown recently since we &lt;a href=&quot;https://news.ycombinator.com/item?id=29929438&quot;&gt;hit the front page of Hacker News&lt;/a&gt;. I decided to take the snag list I had and completely re-do Simple.css in way that I should have in the first place.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-whats-changed-on-v20&quot;&gt;So what’s changed on v2.0?&lt;/h2&gt;
+&lt;p&gt;Well, a lot to be honest. Here’s an (incomplete) list as I can’t remember everything I changed off the top of my head:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Simple.css now uses CSS Grid instead of the old school &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;display:block;&lt;/code&gt; method - this improves responsiveness and stops the need for hacks when it comes to full width content&lt;/li&gt;
+  &lt;li&gt;I’ve gone through the entire stylesheet to both clean it up and simplify it&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/hello-world&quot;&gt;Added a blog&lt;/a&gt; to this site&lt;/li&gt;
+  &lt;li&gt;Lots of small UI/UX tweaks that generally improve things&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;will-these-changes-break-my-site&quot;&gt;Will these changes break my site?&lt;/h2&gt;
+&lt;p&gt;In short, I don’t know. They shouldn’t as I’ve made no changes that require the structure of your HTML to change, but you never know.&lt;/p&gt;
+
+&lt;p&gt;If these changes have broken your site, firstly, I’m sorry - it’s all in the name of maturing the project. Secondly, I’ve published version 1.x of the Simple.css stylesheet separately, so you can continue to use that in your project, if you like.&lt;/p&gt;
+
+&lt;p&gt;To do that, simply change the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stylesheet&lt;/code&gt; reference in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;head&lt;/code&gt; section to &lt;strong&gt;one&lt;/strong&gt; of the following:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// Our CDN
+&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.simplecss.org/simple-v1.css&quot;&amp;gt;
+
+OR
+
+// NPM CDN
+&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/simpledotcss@2.0.0/simple-v1.css&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you want to continue to use Simple.css in your project and get the latest and greatest version, there’s nothing for you to do. Things should continue to chug along nicely. However, if you are having issues, please &lt;a href=&quot;https://github.com/kevquirk/simple.css/issues&quot;&gt;submit an issue on GitHub&lt;/a&gt; and I’ll do my best to help.&lt;/p&gt;
+
+&lt;h2 id=&quot;thank-you&quot;&gt;Thank you!&lt;/h2&gt;
+
+&lt;p&gt;Finally, I just wanted to say thank you to all the people have contributed to Simple.css, and continue to do so. I never expected Simple.css to go anywhere - it was just a fun little personal project that I ended up publishing. So to see other people finding it useful and &lt;a href=&quot;/showcase&quot;&gt;using it in the wild&lt;/a&gt; really warms my heart.&lt;/p&gt;
+
+&lt;p&gt;If you’re not using Simple.css yet, check out the &lt;a href=&quot;/getting-started&quot;&gt;getting started&lt;/a&gt; page to…you know…&lt;em&gt;get started&lt;/em&gt;. 🙃&lt;/p&gt;
+
+        </description>
+				<pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+				<link>https://simplecss.org/simple-css-version-2</link>
+				<guid isPermaLink="true">https://simplecss.org/simple-css-version-2</guid>
+			</item>
+		
+			<item>
+				<title>Hello World!</title>
+				
+				<description>
+          &lt;p class=&quot;medium&quot;&gt;Well here we are, a new blog on the Simple.css site, check us out!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;But Kev, why have you added a blog to this site?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That’s a great question, dear reader. I thought I’d write this quick post to firstly add some content so the &lt;a href=&quot;/news&quot;&gt;news page&lt;/a&gt; doesn’t look quite so barren.&lt;/p&gt;
+
+&lt;p&gt;Secondly, the Simple.css project is getting more popular, so I wanted a way to share news about updates to the project and the various things I’m doing with it. This way, you know what I’m doing and where the project is headed.&lt;/p&gt;
+
+&lt;p&gt;Finally, there is an RSS feed too. So if you’re that way inclined you can &lt;a href=&quot;/feed.xml&quot;&gt;subscribe&lt;/a&gt;&lt;/p&gt;
+
+        </description>
+				<pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
+				<link>https://simplecss.org/hello-world</link>
+				<guid isPermaLink="true">https://simplecss.org/hello-world</guid>
+			</item>
+		
+	</channel>
+</rss>

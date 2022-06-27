@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Introducing Simple.css Version 2 🎉 | Simple.css</title>
+<meta name="description" content="I've been hacking on Simple.css recently, and all the changes have accumulated into a new major version. Say hello to Simple.css version 2." />
+<link rel="stylesheet" href="cdn_subdomain/simple.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/images/favicon.png" />
+<link rel="apple-touch-icon" href="assets/images/favicon.png">
+ <!-- Facebook integration -->
+<meta property="og:title" content="Introducing Simple.css Version 2 🎉"/>
+<meta property="og:image" content="assets/images/simple-css-feature.webp"/>
+<meta property="og:url" content="https://simplecss.org/simple-css-version-2"/>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Simple.css"/>
+<meta property="og:description" content="I've been hacking on Simple.css recently, and all the changes have accumulated into a new major version. Say hello to Simple.css version 2."/>
+<!-- Twitter integration -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Introducing Simple.css Version 2 🎉" />
+<meta name="twitter:image" content="assets/images/simple-css-feature.webp" />
+<meta name="twitter:url" content="https://simplecss.org/simple-css-version-2" />
+<meta name="twitter:description" content="Simple.css is classless CSS template that allows you to create a good looking website very quickly." />
+<link rel="canonical" href="https://simplecss.org/simple-css-version-2">
+<link rel="alternate" type="application/rss+xml" title="Simple.css" href="https://simplecss.org/feed.xml">
+<link rel="sitemap" type="application/xml" title="Sitemap" href="https://simplecss.org/sitemap.xml" />
+  </head>
+  <body>
+    <header>
+      <nav>
+  <a href="index.html" >Home</a>
+  <a href="https://github.com/kevquirk/simple.css/wiki" >Docs</a>
+  <a href="demo.html" >Demo</a>
+  <a href="news.html" >News</a>
+  <a href="https://github.com/kevquirk/simple.css" ><svg class="icon" viewBox="0 0 32 32"><path d="M16 0.395c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182 0.8 0.148 1.094-0.347 1.094-0.77 0-0.381-0.015-1.642-0.022-2.979-4.452 0.968-5.391-1.888-5.391-1.888-0.728-1.849-1.776-2.341-1.776-2.341-1.452-0.993 0.11-0.973 0.11-0.973 1.606 0.113 2.452 1.649 2.452 1.649 1.427 2.446 3.743 1.739 4.656 1.33 0.143-1.034 0.558-1.74 1.016-2.14-3.554-0.404-7.29-1.777-7.29-7.907 0-1.747 0.625-3.174 1.649-4.295-0.166-0.403-0.714-2.030 0.155-4.234 0 0 1.344-0.43 4.401 1.64 1.276-0.355 2.645-0.532 4.005-0.539 1.359 0.006 2.729 0.184 4.008 0.539 3.054-2.070 4.395-1.64 4.395-1.64 0.871 2.204 0.323 3.831 0.157 4.234 1.026 1.12 1.647 2.548 1.647 4.295 0 6.145-3.743 7.498-7.306 7.895 0.574 0.497 1.085 1.47 1.085 2.963 0 2.141-0.019 3.864-0.019 4.391 0 0.426 0.288 0.925 1.099 0.768 6.354-2.118 10.933-8.113 10.933-15.18 0-8.837-7.164-16-16-16z"></path></svg>Github</a>
+</nav>
+      <h1>Introducing Simple.css Version 2 🎉</h1>
+      <p>I've been hacking on Simple.css recently, and all the changes have accumulated into a new major version. Say hello to Simple.css version 2.</p>
+    </header>
+    <main>
+      <p class="meta">Posted on: 17 Jan 2022</p>
+<p>I started off wanting to make a few small tweaks to Simple.css, but that list has grown recently since we <a href="https://news.ycombinator.com/item?id=29929438">hit the front page of Hacker News</a>. I decided to take the snag list I had and completely re-do Simple.css in way that I should have in the first place.</p>
+<h2 id="so-whats-changed-on-v20">So what’s changed on v2.0?</h2>
+<p>Well, a lot to be honest. Here’s an (incomplete) list as I can’t remember everything I changed off the top of my head:</p>
+<ul>
+  <li>Simple.css now uses CSS Grid instead of the old school <code class="language-plaintext highlighter-rouge">display:block;</code> method - this improves responsiveness and stops the need for hacks when it comes to full width content</li>
+  <li>I’ve gone through the entire stylesheet to both clean it up and simplify it</li>
+  <li><a href="hello-world.html">Added a blog</a> to this site</li>
+  <li>Lots of small UI/UX tweaks that generally improve things</li>
+</ul>
+<h2 id="will-these-changes-break-my-site">Will these changes break my site?</h2>
+<p>In short, I don’t know. They shouldn’t as I’ve made no changes that require the structure of your HTML to change, but you never know.</p>
+<p>If these changes have broken your site, firstly, I’m sorry - it’s all in the name of maturing the project. Secondly, I’ve published version 1.x of the Simple.css stylesheet separately, so you can continue to use that in your project, if you like.</p>
+<p>To do that, simply change the <code class="language-plaintext highlighter-rouge">stylesheet</code> reference in your <code class="language-plaintext highlighter-rouge">head</code> section to <strong>one</strong> of the following:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Our CDN
+&lt;link rel="stylesheet" href="https://cdn.simplecss.org/simple-v1.css"&gt;
+OR
+// NPM CDN
+&lt;link rel="stylesheet" href="https://unpkg.com/simpledotcss@2.0.0/simple-v1.css"&gt;
+</code></pre></div></div>
+<p>If you want to continue to use Simple.css in your project and get the latest and greatest version, there’s nothing for you to do. Things should continue to chug along nicely. However, if you are having issues, please <a href="https://github.com/kevquirk/simple.css/issues">submit an issue on GitHub</a> and I’ll do my best to help.</p>
+<h2 id="thank-you">Thank you!</h2>
+<p>Finally, I just wanted to say thank you to all the people have contributed to Simple.css, and continue to do so. I never expected Simple.css to go anywhere - it was just a fun little personal project that I ended up publishing. So to see other people finding it useful and <a href="showcase.html">using it in the wild</a> really warms my heart.</p>
+<p>If you’re not using Simple.css yet, check out the <a href="getting-started.html">getting started</a> page to…you know…<em>get started</em>. 🙃</p>
+    </main>
+
+  </body>
+</html>
