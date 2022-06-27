@@ -56,6 +56,14 @@
     <main>
   <div class="wrapper">
 
+  <script>
+    var ua = navigator.userAgent.toLowerCase();
+    var isAndroid = ua.indexOf("android") > -1; 
+    if(isAndroid) {
+        document.write("<fieldset>");
+    }
+  </script>
+
 
 <!--
 <div class="modal-container">
@@ -103,6 +111,14 @@
 
     </main>
   </div>
+    <script>
+    var ua = navigator.userAgent.toLowerCase();
+    var isAndroid = ua.indexOf("android") > -1; 
+    if(isAndroid) {
+        document.write("</fieldset>");
+    }
+  </script>
+
     <footer>
       <center>
             <p align="center" style="text-align: center; align-content: center; text-align: center; text-indent: 0px;">&copy;2022 Company Ltd. - All Rights Reserved.</p>
