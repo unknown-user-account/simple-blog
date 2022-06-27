@@ -595,6 +595,13 @@ label {
     justify-content: center;
   }
 
+  div.wrapper {
+  border: 1px solid var(--border);
+  padding: 1rem;
+  border-radius: 5px;
+
+  }
+
   div.headertext {
 
         position: absolute;
